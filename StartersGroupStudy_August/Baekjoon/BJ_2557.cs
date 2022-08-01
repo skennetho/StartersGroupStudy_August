@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Program
+﻿namespace Program
 {
     class BJ_2557
     {
-        public static void Main()
+        public static void Mai()
         {
             Console.WriteLine("Hello World!");
         }
