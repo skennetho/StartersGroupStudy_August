@@ -2,7 +2,7 @@
 {
     internal class BJ_2588
     {
-        public static void Main()
+        public static void Mai()
         {
             int upNum = int.Parse(Console.ReadLine());
             string downNum = Console.ReadLine();
