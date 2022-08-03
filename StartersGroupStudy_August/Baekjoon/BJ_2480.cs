@@ -2,7 +2,7 @@
 {
     internal class BJ_2480
     {
-        public static void Main()
+        public static void Mai()
         {
             int[] result = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
