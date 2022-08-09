@@ -5,7 +5,7 @@ namespace StartersGroupStudy_August.Baekjoon
 {
     internal class BJ_10818
     {
-        public static void Main()
+        public static void Mai()
         {
             int n = int.Parse(Console.ReadLine());
 
