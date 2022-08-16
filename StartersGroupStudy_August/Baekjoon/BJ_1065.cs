@@ -6,7 +6,7 @@ namespace StartersGroupStudy_August.Baekjoon
     internal class BJ_1065
     {
 
-        public static void Main()
+        public static void Mai()
         {
             int n = int.Parse(Console.ReadLine());
             bool[] isOneNumber = new bool[1001]; //0~1000
