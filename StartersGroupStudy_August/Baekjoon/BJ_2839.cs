@@ -17,11 +17,11 @@
                 if (kilos[i - 3] == -1 && kilos[i - 5] == -1)
                     continue;
 
-                // kilos[n] = Math.min(kilos[n-3], kilos[n-5]);
+                // kilos[n] = Math.min(kilos[n-3], kilos[n-5]) + 1;
                 kilos[i] = Math.Min(
                     kilos[i - 3] != -1 ? kilos[i - 3] : int.MaxValue,
                     kilos[i - 5] != -1 ? kilos[i - 5] : int.MaxValue
-                    ) +1;
+                    ) + 1;
             }
 
             Console.WriteLine(kilos[N]);
